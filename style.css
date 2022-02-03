@@ -1,0 +1,21 @@
+body{
+    height: 1000px;
+    text-align: center;
+}
+.search__icon{
+    height: 20px;
+    width:20px;
+}
+p{display: none}
+.search__icon:hover{
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+.search__area{
+    display: none;
+    height: 25px;
+    width: 150px;
+}
+._active{
+    display: inline-block;
+}
